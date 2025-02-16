@@ -74,6 +74,9 @@ document.querySelector("#app").innerHTML = `
       class="text-lg -ml-4 font-bold tracking-wide text-zinc-600 lg:text-white uppercase lg:group-hover:text-zinc-600 lg:dark:group-hover:text-white dark:text-white">Sedic
       Texas</span>
   </a>
+
+
+
   <button
     class="inline-flex p-3 ml-auto text-zinc-600 lg:text-white uppercase lg:group-hover:text-zinc-600 lg:dark:group-hover:text-white dark:text-white rounded outline-none transition-all lg:hidden"
     id="toggleButton">
@@ -106,10 +109,8 @@ document.querySelector("#app").innerHTML = `
         <span>Projects
         </span>
       </button>
-      <button id="locations"
-        class="inline-flex items-center justify-center w-full px-3 py-2 text-white rounded group-hover:text-zinc-600 lg:text-opacity-0 lg:hover:text-opacity-100 lg:dark:text-opacity-0 lg:dark:hover:text-opacity-100 lg:dark:group-hover:text-white hover:underline lg:inline-flex lg:w-auto">
-        <span>Locations</span>
-      </button>
+      
+      
       <button id="contact"
         class="inline-flex items-center justify-center w-full px-3 py-2 text-white rounded group-hover:text-zinc-600 lg:text-opacity-0 lg:hover:text-opacity-100 lg:dark:text-opacity-0 lg:dark:hover:text-opacity-100 lg:dark:group-hover:text-white hover:underline lg:inline-flex lg:w-auto">
         <span>Contact Us</span>
@@ -135,12 +136,9 @@ document.querySelector("#app").innerHTML = `
       </button>
       <button id="blog2"
         class="inline-flex justify-start w-full px-5 py-6 dark:text-white text-zinc-600 rounded hover:underline">
-        <span>Blog</span>
+        <span>Projects</span>
       </button>
-      <button id="locations2"
-        class="inline-flex justify-start w-full px-5 py-6 dark:text-white text-zinc-600 rounded hover:underline">
-        <span>Locations</span>
-      </button>
+      
       <button id="contact2"
         class="inline-flex justify-start w-full px-5 py-6 dark:text-white text-zinc-600 rounded hover:underline">
         <span>Contact Us</span>
@@ -279,6 +277,7 @@ document.querySelector("#app").innerHTML = `
                   <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
                 </svg>
               </button>
+              
 
             </div>
           </div>
@@ -512,10 +511,10 @@ document.querySelector("#app").innerHTML = `
 
             </p>
           </div>
-          <div class="md:5/12  lg:w-5/12 relative mr-4">s
+          <div class="md:5/12  lg:w-5/12 relative mr-4">
             <img class="w-full" src="https://i.postimg.cc/br4s56VB/team-2.png" alt="Development Team">
             <div class="img-blur dark:imgd-blur "></div>
-          </div>s
+          </div>
         </div>
       </div>
     </section>
@@ -523,7 +522,7 @@ document.querySelector("#app").innerHTML = `
       <div class="mb-10 flow-root sm:mt-20">
         <div class="-m-2 rounded-xl bg-gray-900/5 lg:rounded-2xl">
           <img src="https://i.postimg.cc/hj5F8NhN/history-pic-2.png"
-            width="2000" height="1200" class="rounded-md " />s
+            width="2000" height="1200" class="rounded-md " />
         </div>
       </div>
       <div class="mx-auto max-w-7xl px-6 lg:px-8 mt-20">
@@ -1008,20 +1007,20 @@ document.querySelector("#app").innerHTML = `
   <!-- component -->\
    <div class="mt-[100vh] "
    
-<section class="bg-white dark:bg-gray-900 -mt-20">
+<section class="bg:white dark:bg-zinc-900 -mt-20">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">From the blog</h1>
+        <h1 class="text-3xl font-semibold text-amber-400 capitalize lg:text-4xl dark:text-amber-400">Our Projects</h1>
 
         <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
             <div class="lg:flex">
                 <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://i.postimg.cc/Xvjk6wx9/Mesa-de-trabajo-2.jpg" alt="">
 
                 <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <button id="projectEnergyLink" href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <button id="projectEnergyLink" href="#" class="text-xl font-semibold text-gray-800 hover:text-amber-400 dark:text-white ">
                     Energy
 </button>
                     
-                    <span class="text-sm text-black-500 dark:text-red-300">On: 20 October 2019</span>
+                    
                 </div>
             </div>
 
@@ -1029,11 +1028,11 @@ document.querySelector("#app").innerHTML = `
                 <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://i.postimg.cc/zfwrHSSV/Mesa-de-trabajo-6.jpg" alt="">
 
                 <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <button id="projectInfrastructureLink" href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <button id="projectInfrastructureLink" href="#" class="text-xl font-semibold text-gray-800 hover:text-amber-400 dark:text-white ">
                     Infrastructure
 </button>
 
-                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                    
                 </div>
             </div>
 
@@ -1041,11 +1040,11 @@ document.querySelector("#app").innerHTML = `
                 <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://i.postimg.cc/BnrSKnrw/Mesa-de-trabajo-3.jpg" alt="">
 
                 <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a id="ProjectWaterSanitationLink" href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <button id="ProjectWaterSanitationLink" href="#" class="text-xl font-semibold text-gray-800 hover:text-amber-400 dark:text-white ">
                     Water & Sanitation
-                    </a>
+</button>
 
-                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 25 November 2020</span>
+                    
                 </div>
             </div>
 
@@ -1053,12 +1052,12 @@ document.querySelector("#app").innerHTML = `
                 <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://i.postimg.cc/x13Qc3Pq/Mesa-de-trabajo-28.jpg" alt="">
 
                 <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a id="ProjectSubstationsLink" href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <button id="ProjectSubstationsLink" href="#" class="text-xl font-semibold text-gray-800 hover:text-amber-400 dark:text-white ">
                     Grid Engineering Masterpieces
 
-                    </a>
+</button>
 
-                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 30 September 2020</span>
+                    
                 </div>
             </div>
 
@@ -1066,11 +1065,11 @@ document.querySelector("#app").innerHTML = `
                 <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://i.postimg.cc/kGS39Q4J/Mesa-de-trabajo-5.jpg" alt="">
 
                 <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a id="ProjectConstructionLink" href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <button id="ProjectConstructionLink" href="#" class="text-xl font-semibold text-gray-800 hover:text-amber-400 dark:text-white ">
                     Building the Future
-                    </a>
+</button>
 
-                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 13 October 2019</span>
+                    
                 </div>
             </div>
 
@@ -1078,11 +1077,11 @@ document.querySelector("#app").innerHTML = `
                 <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://i.postimg.cc/TYrM4JFQ/Mesa-de-trabajo-7.jpg" alt="">
 
                 <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a id="ProjectIndustrialLink" href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <button id="ProjectIndustrialLink" href="#" class="text-xl font-semibold text-gray-800 hover:text-amber-400 dark:text-white ">
                     Industrial Ventures
-                    </a>
+                    </button>
                     
-                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                    
                 </div>
             </div>
         </div>
@@ -1096,17 +1095,17 @@ document.querySelector("#app").innerHTML = `
     <div id="projectEnergyPage" class="hide-page dark:bg-zinc-900 min-h-screen">
     <!-- component -->
 
-    <div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
+    <div id="locations" class="section relative bg:white dark:bg-zinc-900  pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
     <div class="container xl:max-w-6xl mx-auto px-4">
         <!-- Heading start -->
         <header class="text-center mx-auto mb-12 lg:px-20">
-            <h2 class="text-2xl leading-normal mb-2 font-bold text-black">What We Do</h2>
+            <h2 class="text-2xl leading-normal mb-2 font-bold  text-amber-400 ">Energy Projects</h2>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
                 <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
                 <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
                 <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
             </svg>
-            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+            <p class="text-red-500 leading-relaxed font-light text-xl mx-auto pb-2">button maybe</p>
         </header>
         <!-- End heading -->
         <!-- row -->
@@ -1285,544 +1284,203 @@ document.querySelector("#app").innerHTML = `
         <!-- end row -->
     </div>
 </div>
+
+
 </div>
 
-<div id="ProjectSubstationsPage" class="hide-page dark:bg-zinc-800 min-h-screen">
-   
-<!-- component -->
-<div class="py-16 dark:bg-zinc-900">
-    <div class="mx-auto px-6 max-w-6xl  text-gray-500">
-      <div class="text-center">
-        <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Our Goals and Objectives</h2>
-        <p class="mt-6 text-gray-700 dark:text-gray-300"></p>
-      </div>
-      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg class="text-[#000014] dark:text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                viewBox="0 0 128 128">
-                <defs>
-                  <linearGradient id="deviconAstro0" x1="882.997" x2="638.955" y1="27.113" y2="866.902"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="currentColor"></stop>
-                    <stop offset="1" stop-color="currentColor"></stop>
-                  </linearGradient>
-                  <linearGradient id="deviconAstro1" x1="1001.68" x2="790.326" y1="652.45" y2="1094.91"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#ff1639"></stop>
-                    <stop offset="1" stop-color="#ff1639" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#deviconAstro0)"
-                  d="M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0">
-                </path>
-                <path fill="#ff5d01"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-                <path fill="url(#deviconAstro1)"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-              </svg>
-            </div>
 
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Multidisciplinary Excellence
-                "A team of over 300 experts combining deep technical knowledge with practical insights."</p>
-            </div>
-          </div>
-        </div>
-        <div href="#"
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-green-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-green-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-green-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 263">
-                <defs>
-                  <linearGradient id="logosSupabaseIcon0" x1="20.862%" x2="63.426%" y1="20.687%" y2="44.071%">
-                    <stop offset="0%" stop-color="#249361"></stop>
-                    <stop offset="100%" stop-color="#3ecf8e"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosSupabaseIcon1" x1="1.991%" x2="21.403%" y1="-13.158%" y2="34.708%">
-                    <stop offset="0%"></stop>
-                    <stop offset="100%" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosSupabaseIcon0)"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="url(#logosSupabaseIcon1)" fill-opacity="0.2"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="#3ecf8e"
-                  d="M106.399 4.37c6.717-8.461 20.338-3.826 20.5 6.976l1.037 157.984H23.037c-19.241 0-29.973-22.223-18.008-37.292z">
-                </path>
-              </svg>
-            </div>
 
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Phase III Studies and Designs for the Embankment Recovery Works in the Influence Area of the Café Airport, located in the Municipality of Palestina, Caldas.""</p>
-            </div>
-
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-0">
-  <button onclick="window.location.href='https://aeropuertodelcafe.com.co/'" 
-    class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950  disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:border-gray-600 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-    <span>Learn More</span>
-    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed">
-      <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-    </svg>
-  </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-red-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-red-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-red-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.95em" height="1em" viewBox="0 0 256 271">
-                <defs>
-                  <linearGradient id="logosAngularIcon0" x1="25.071%" x2="96.132%" y1="90.929%" y2="55.184%">
-                    <stop offset="0%" stop-color="#e40035"></stop>
-                    <stop offset="24%" stop-color="#f60a48"></stop>
-                    <stop offset="35.2%" stop-color="#f20755"></stop>
-                    <stop offset="49.4%" stop-color="#dc087d"></stop>
-                    <stop offset="74.5%" stop-color="#9717e7"></stop>
-                    <stop offset="100%" stop-color="#6c00f5"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosAngularIcon1" x1="21.863%" x2="68.367%" y1="12.058%" y2="68.21%">
-                    <stop offset="0%" stop-color="#ff31d9"></stop>
-                    <stop offset="100%" stop-color="#ff5be1" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosAngularIcon0)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-                <path fill="url(#logosAngularIcon1)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Discover how over 50 years of engineering excellence is
-                shaping the future. Learn more about SEDIC's commitment to innovation, sustainability, and our recent
-                expansion into the U.S."</p>
-            </div>
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-gray-800">
-              <button id="aboutlink"
-                class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-                <span>Learn More</span>
-                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
-                  fill="#e8eaed">
-                  <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-                </svg>
-              </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-gray-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-gray-500/10 flex relative *:relative *:size-6 *:m-auto  text-gray-950 dark:text-white size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
-                <path fill="currentColor"
-                  d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Project Efficiency
-                "Delivering projects with precision, quality, and efficiency using cutting-edge methodologies."</p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-yellow-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-yellow-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-yellow-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.73em" height="1em" viewBox="0 0 256 351">
-                <defs>
-                  <filter id="logosFirebase0" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"></feGaussianBlur>
-                    <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0">
-                    </feColorMatrix>
-                  </filter>
-                  <filter id="logosFirebase1" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"></feGaussianBlur>
-                    <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0">
-                    </feColorMatrix>
-                  </filter>
-                  <path id="logosFirebase2"
-                    d="m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z">
-                  </path>
-                  <path id="logosFirebase3"
-                    d="m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744z">
-                  </path>
-                </defs>
-                <path fill="#ffc24a"
-                  d="m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z">
-                </path>
-                <use fill="#ffa712" fill-rule="evenodd" href="#logosFirebase2"></use>
-                <use filter="url(#logosFirebase0)" href="#logosFirebase2"></use>
-                <path fill="#f4bd62"
-                  d="m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z">
-                </path>
-                <use fill="#ffa50e" fill-rule="evenodd" href="#logosFirebase3"></use>
-                <use filter="url(#logosFirebase1)" href="#logosFirebase3"></use>
-                <path fill="#f6820c" d="m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z"></path>
-                <path fill="#fde068"
-                  d="m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005">
-                </path>
-                <path fill="#fcca3f"
-                  d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006z">
-                </path>
-                <path fill="#eeab37"
-                  d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"SEDIC’s growth into new markets is fueled by our unwavering
-                commitment to innovation, sustainability, and delivering transformative engineering solutions."
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-sky-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-sky-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-sky-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
-                <path fill="#0080ff"
-                  d="M64.142 102.96H39.24V78.522h24.903ZM39.24 122.131H20.373v-19.173H39.24Zm-18.866-19.173H4.53V87.167h15.843Zm43.394 24.814v-24.814c26.41 0 46.784-25.94 36.597-53.388c-3.775-10.15-11.694-18.42-22.26-22.181c-27.167-9.772-53.2 10.527-53.2 36.468H0c0-41.354 40.37-74.064 84.52-60.53c19.242 6.017 34.334 21.055 40.37 40.23c13.581 43.985-19.245 84.214-61.123 84.214Zm0 0">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Every project we undertake is a reflection of our dedication
-                to creating a better, more sustainable future through the power of engineering."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-</div>
-
-<div id="ProjectInfrastructurePage" class="hide-page dark:bg-red-800 min-h-screen">
+<div id="ProjectInfrastructurePage" class="hide-page  min-h-screen">
     <!-- component -->
- <div class="py-16 dark:bg-zinc-900">
-    <div class="mx-auto px-6 max-w-6xl  text-gray-500">
-      <div class="text-center">
-        <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Our Goals and Objectives</h2>
-        <p class="mt-6 text-gray-700 dark:text-gray-300"></p>
-      </div>
-      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg class="text-[#000014] dark:text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                viewBox="0 0 128 128">
-                <defs>
-                  <linearGradient id="deviconAstro0" x1="882.997" x2="638.955" y1="27.113" y2="866.902"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="currentColor"></stop>
-                    <stop offset="1" stop-color="currentColor"></stop>
-                  </linearGradient>
-                  <linearGradient id="deviconAstro1" x1="1001.68" x2="790.326" y1="652.45" y2="1094.91"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#ff1639"></stop>
-                    <stop offset="1" stop-color="#ff1639" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#deviconAstro0)"
-                  d="M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0">
-                </path>
-                <path fill="#ff5d01"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-                <path fill="url(#deviconAstro1)"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Multidisciplinary Excellence
-                "A team of over 300 experts combining deep technical knowledge with practical insights."</p>
-            </div>
-          </div>
-        </div>
-        <div href="#"
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-green-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-green-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-green-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 263">
-                <defs>
-                  <linearGradient id="logosSupabaseIcon0" x1="20.862%" x2="63.426%" y1="20.687%" y2="44.071%">
-                    <stop offset="0%" stop-color="#249361"></stop>
-                    <stop offset="100%" stop-color="#3ecf8e"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosSupabaseIcon1" x1="1.991%" x2="21.403%" y1="-13.158%" y2="34.708%">
-                    <stop offset="0%"></stop>
-                    <stop offset="100%" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosSupabaseIcon0)"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="url(#logosSupabaseIcon1)" fill-opacity="0.2"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="#3ecf8e"
-                  d="M106.399 4.37c6.717-8.461 20.338-3.826 20.5 6.976l1.037 157.984H23.037c-19.241 0-29.973-22.223-18.008-37.292z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Phase III Studies and Designs for the Embankment Recovery Works in the Influence Area of the Café Airport, located in the Municipality of Palestina, Caldas.""</p>
-            </div>
-
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-0">
-  <button onclick="window.location.href='https://aeropuertodelcafe.com.co/'" 
-    class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950  disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:border-gray-600 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-    <span>Learn More</span>
-    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed">
-      <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-    </svg>
-  </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-red-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-red-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-red-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.95em" height="1em" viewBox="0 0 256 271">
-                <defs>
-                  <linearGradient id="logosAngularIcon0" x1="25.071%" x2="96.132%" y1="90.929%" y2="55.184%">
-                    <stop offset="0%" stop-color="#e40035"></stop>
-                    <stop offset="24%" stop-color="#f60a48"></stop>
-                    <stop offset="35.2%" stop-color="#f20755"></stop>
-                    <stop offset="49.4%" stop-color="#dc087d"></stop>
-                    <stop offset="74.5%" stop-color="#9717e7"></stop>
-                    <stop offset="100%" stop-color="#6c00f5"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosAngularIcon1" x1="21.863%" x2="68.367%" y1="12.058%" y2="68.21%">
-                    <stop offset="0%" stop-color="#ff31d9"></stop>
-                    <stop offset="100%" stop-color="#ff5be1" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosAngularIcon0)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-                <path fill="url(#logosAngularIcon1)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Discover how over 50 years of engineering excellence is
-                shaping the future. Learn more about SEDIC's commitment to innovation, sustainability, and our recent
-                expansion into the U.S."</p>
-            </div>
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-gray-800">
-              <button id="aboutlink"
-                class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-                <span>Learn More</span>
-                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
-                  fill="#e8eaed">
-                  <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-                </svg>
-              </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-gray-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-gray-500/10 flex relative *:relative *:size-6 *:m-auto  text-gray-950 dark:text-white size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
-                <path fill="currentColor"
-                  d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Project Efficiency
-                "Delivering projects with precision, quality, and efficiency using cutting-edge methodologies."</p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-yellow-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-yellow-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-yellow-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.73em" height="1em" viewBox="0 0 256 351">
-                <defs>
-                  <filter id="logosFirebase0" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"></feGaussianBlur>
-                    <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0">
-                    </feColorMatrix>
-                  </filter>
-                  <filter id="logosFirebase1" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"></feGaussianBlur>
-                    <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0">
-                    </feColorMatrix>
-                  </filter>
-                  <path id="logosFirebase2"
-                    d="m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z">
-                  </path>
-                  <path id="logosFirebase3"
-                    d="m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744z">
-                  </path>
-                </defs>
-                <path fill="#ffc24a"
-                  d="m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z">
-                </path>
-                <use fill="#ffa712" fill-rule="evenodd" href="#logosFirebase2"></use>
-                <use filter="url(#logosFirebase0)" href="#logosFirebase2"></use>
-                <path fill="#f4bd62"
-                  d="m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z">
-                </path>
-                <use fill="#ffa50e" fill-rule="evenodd" href="#logosFirebase3"></use>
-                <use filter="url(#logosFirebase1)" href="#logosFirebase3"></use>
-                <path fill="#f6820c" d="m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z"></path>
-                <path fill="#fde068"
-                  d="m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005">
-                </path>
-                <path fill="#fcca3f"
-                  d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006z">
-                </path>
-                <path fill="#eeab37"
-                  d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"SEDIC’s growth into new markets is fueled by our unwavering
-                commitment to innovation, sustainability, and delivering transformative engineering solutions."
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-sky-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-sky-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-sky-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
-                <path fill="#0080ff"
-                  d="M64.142 102.96H39.24V78.522h24.903ZM39.24 122.131H20.373v-19.173H39.24Zm-18.866-19.173H4.53V87.167h15.843Zm43.394 24.814v-24.814c26.41 0 46.784-25.94 36.597-53.388c-3.775-10.15-11.694-18.42-22.26-22.181c-27.167-9.772-53.2 10.527-53.2 36.468H0c0-41.354 40.37-74.064 84.52-60.53c19.242 6.017 34.334 21.055 40.37 40.23c13.581 43.985-19.245 84.214-61.123 84.214Zm0 0">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Every project we undertake is a reflection of our dedication
-                to creating a better, more sustainable future through the power of engineering."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
-<div id="ProjectWaterSanitationPage" class="hide-page dark:bg-red-800 min-h-screen">
-    <!-- component -->
- <!-- component -->
-<div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
+    <div  class="section relative bg:white dark:bg-zinc-900 pt-20  pb-8 md:pt-16 md:pb-0 bg-white">
     <div class="container xl:max-w-6xl mx-auto px-4">
         <!-- Heading start -->
         <header class="text-center mx-auto mb-12 lg:px-20">
-            <h2 class="text-2xl leading-normal mb-2 font-bold text-black">What We Do</h2>
+            <h2 class="text-2xl leading-normal mb-2 font-bold text-amber-400">Infrastructure Projects</h2>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
                 <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
                 <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
                 <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
             </svg>
-            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">button maybe</p>
+        </header>
+        <!-- End heading -->
+        <!-- row -->
+        <div class="flex flex-wrap flex-row -mx-4 text-center">
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://aeropuertodelcafe.com.co/" target="_blank" class="text-blue-600 hover:underline">
+    Aeropuerto del Café
+  </a>
+</h3>
+<p class="text-gray-600 mb-3">
+  Phase III studies and designs for the recovery of embankments in the area of influence of Aeropuerto del Café, located in the municipality of Palestina, Caldas.
+</p>
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Embankment Recovery</strong> – Design and supervision of stabilization structures.</li>
+  <li><strong>Airport Infrastructure</strong> – Detailed studies for land optimization and operational safety.</li>
+  <li><strong>Technical Analysis</strong> – Assessment of environmental and geotechnical impact in the area of influence.</li>
+</ul>
+
+
+
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.epm.com.co/institucional/proyectos/proyectos-en-el-territorio/" target="_blank" class="text-blue-600 hover:underline">
+    EPM
+  </a>
+</h3>
+<p class="text-gray-600 mb-3">
+  Supervision during the construction of infrastructure works for the Ituango Hydroelectric Project.
+</p>
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Equipment Registration Methodology</strong> – Development of a structured approach for energy division.</li>
+  <li><strong>Land Parcels</strong> – Planning and supervision in the municipalities of El Peñol and Guatapé.</li>
+  <li><strong>Infrastructure Supervision</strong> – Oversight of adaptation works in Nuevo Peñol.</li>
+</ul>
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-badge-ad" viewBox="0 0 16 16">
+                            <path d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"></path>
+                            <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.idu.gov.co/page/quienes-somos-2" target="_blank" class="text-blue-600 hover:underline">
+    IDU
+  </a>
+</h3>
+<p class="text-gray-600 mb-3">
+Studies and designs for the Tintal Avenue, from Bosa Avenue to Alsacia Avenue, Alsacia Avenue from Tintal Avenue to Constitution Avenue, Constitution Avenue from Alsacia Avenue to Centenario Avenue, and Bosa Avenue from Ciudad de Cali Avenue to Tintal Avenue in Bogotá, D.C.
+</p>
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Soil Analysis</strong> – Geotechnical studies and recommendations to assess the feasibility of infrastructure projects managed by the Urban Development Institute in Bogotá.</li>
+</ul>
+
+
+
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"></path>
+                            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.medellin.edu.co/" target="_blank" class="text-blue-600 hover:underline">
+  Secretariat of Education and Culture
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>City of Learning Project</strong> – Construction oversight and supervision of educational institutions in the city of Medellín. This includes monitoring the progress and quality of construction projects for school buildings and educational facilities, ensuring they meet the required standards and regulations. The supervision ensures that the construction processes adhere to timelines, budgets, and safety protocols to provide optimal learning environments for students and staff.</li>
+  
+</ul>
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://antioquia.gov.co/" target="_blank" class="text-blue-600 hover:underline">
+  GOVERMENT OF ANTIOQUIA
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Mellito - Tambo Project</strong> – Technical, Administrative, and Environmental Supervision for the rehabilitation of the Mellito - Tambo - Arboletes road, including the construction of embankments, drainage, and sub-drainage works, located in the department of Antioquia.</li>
+  <li><strong>Mellito - Tambo Project</strong> – Technical, Administrative, and Environmental Supervision for the rehabilitation of the Mellito - Tambo - Arboletes road, including the construction of embankments, drainage, and sub-drainage works, located in the department of Antioquia.</li>
+</ul>
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.metrodemedellin.gov.co/usuarios/que-hacer-y-donde-ir-en-medellin" target="_blank" class="text-blue-600 hover:underline">
+  METROMED
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>HydroTrack Design Project</strong> – Design of Hydraulic Structures for the Metropolitan Train, an essential part of Medellín’s urban transportation network. Medellín is the only city in Colombia with a metro system, providing efficient and eco-friendly transportation to its residents. The design focuses on ensuring the hydraulic infrastructure supports the safe and sustainable operation of the metropolitan train, contributing to the city’s clean and modern reputation.</li>
+  
+</ul>
+                </div>
+                <!-- end service block -->
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+</div>
+
+</div>
+
+
+<div id="ProjectWaterSanitationPage" class="hide-page  min-h-screen">
+    <!-- component -->
+ <!-- component -->
+<div id="locations2" class="section bg:white dark:bg-zinc-900 relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
+    <div class="container xl:max-w-6xl mx-auto px-4">
+        <!-- Heading start -->
+        <header class="text-center mx-auto mb-12 lg:px-20">
+            <h2 class="text-2xl leading-normal mb-2 font-bold text-amber-400">Water & Sanitation Projects </h2>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
+                <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
+                <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
+                <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
+            </svg>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">button maybe</p>
         </header>
         <!-- End heading -->
         <!-- row -->
@@ -1977,277 +1635,14 @@ document.querySelector("#app").innerHTML = `
 
 </div>
 
-<div id="ProjectSubstationsPage" class="hide-page dark:bg-zinc-800 min-h-screen">
+<div id="ProjectSubstationsPage" class="hide-page dark:bg-zinc-900 min-h-screen">
    
 <!-- component -->
-<div class="py-16 dark:bg-zinc-900">
-    <div class="mx-auto px-6 max-w-6xl  text-gray-500">
-      <div class="text-center">
-        <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Our Goals and Objectives</h2>
-        <p class="mt-6 text-gray-700 dark:text-gray-300"></p>
-      </div>
-      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg class="text-[#000014] dark:text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                viewBox="0 0 128 128">
-                <defs>
-                  <linearGradient id="deviconAstro0" x1="882.997" x2="638.955" y1="27.113" y2="866.902"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="currentColor"></stop>
-                    <stop offset="1" stop-color="currentColor"></stop>
-                  </linearGradient>
-                  <linearGradient id="deviconAstro1" x1="1001.68" x2="790.326" y1="652.45" y2="1094.91"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#ff1639"></stop>
-                    <stop offset="1" stop-color="#ff1639" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#deviconAstro0)"
-                  d="M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0">
-                </path>
-                <path fill="#ff5d01"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-                <path fill="url(#deviconAstro1)"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Multidisciplinary Excellence
-                "A team of over 300 experts combining deep technical knowledge with practical insights."</p>
-            </div>
-          </div>
-        </div>
-        <div href="#"
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-green-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-green-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-green-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 263">
-                <defs>
-                  <linearGradient id="logosSupabaseIcon0" x1="20.862%" x2="63.426%" y1="20.687%" y2="44.071%">
-                    <stop offset="0%" stop-color="#249361"></stop>
-                    <stop offset="100%" stop-color="#3ecf8e"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosSupabaseIcon1" x1="1.991%" x2="21.403%" y1="-13.158%" y2="34.708%">
-                    <stop offset="0%"></stop>
-                    <stop offset="100%" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosSupabaseIcon0)"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="url(#logosSupabaseIcon1)" fill-opacity="0.2"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="#3ecf8e"
-                  d="M106.399 4.37c6.717-8.461 20.338-3.826 20.5 6.976l1.037 157.984H23.037c-19.241 0-29.973-22.223-18.008-37.292z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Phase III Studies and Designs for the Embankment Recovery Works in the Influence Area of the Café Airport, located in the Municipality of Palestina, Caldas.""</p>
-            </div>
-
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-0">
-  <button onclick="window.location.href='https://aeropuertodelcafe.com.co/'" 
-    class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950  disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:border-gray-600 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-    <span>Learn More</span>
-    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed">
-      <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-    </svg>
-  </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-red-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-red-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-red-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.95em" height="1em" viewBox="0 0 256 271">
-                <defs>
-                  <linearGradient id="logosAngularIcon0" x1="25.071%" x2="96.132%" y1="90.929%" y2="55.184%">
-                    <stop offset="0%" stop-color="#e40035"></stop>
-                    <stop offset="24%" stop-color="#f60a48"></stop>
-                    <stop offset="35.2%" stop-color="#f20755"></stop>
-                    <stop offset="49.4%" stop-color="#dc087d"></stop>
-                    <stop offset="74.5%" stop-color="#9717e7"></stop>
-                    <stop offset="100%" stop-color="#6c00f5"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosAngularIcon1" x1="21.863%" x2="68.367%" y1="12.058%" y2="68.21%">
-                    <stop offset="0%" stop-color="#ff31d9"></stop>
-                    <stop offset="100%" stop-color="#ff5be1" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosAngularIcon0)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-                <path fill="url(#logosAngularIcon1)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Discover how over 50 years of engineering excellence is
-                shaping the future. Learn more about SEDIC's commitment to innovation, sustainability, and our recent
-                expansion into the U.S."</p>
-            </div>
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-gray-800">
-              <button id="aboutlink"
-                class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-                <span>Learn More</span>
-                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
-                  fill="#e8eaed">
-                  <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-                </svg>
-              </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-gray-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-gray-500/10 flex relative *:relative *:size-6 *:m-auto  text-gray-950 dark:text-white size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
-                <path fill="currentColor"
-                  d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Project Efficiency
-                "Delivering projects with precision, quality, and efficiency using cutting-edge methodologies."</p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-yellow-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-yellow-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-yellow-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.73em" height="1em" viewBox="0 0 256 351">
-                <defs>
-                  <filter id="logosFirebase0" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"></feGaussianBlur>
-                    <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0">
-                    </feColorMatrix>
-                  </filter>
-                  <filter id="logosFirebase1" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"></feGaussianBlur>
-                    <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0">
-                    </feColorMatrix>
-                  </filter>
-                  <path id="logosFirebase2"
-                    d="m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z">
-                  </path>
-                  <path id="logosFirebase3"
-                    d="m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744z">
-                  </path>
-                </defs>
-                <path fill="#ffc24a"
-                  d="m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z">
-                </path>
-                <use fill="#ffa712" fill-rule="evenodd" href="#logosFirebase2"></use>
-                <use filter="url(#logosFirebase0)" href="#logosFirebase2"></use>
-                <path fill="#f4bd62"
-                  d="m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z">
-                </path>
-                <use fill="#ffa50e" fill-rule="evenodd" href="#logosFirebase3"></use>
-                <use filter="url(#logosFirebase1)" href="#logosFirebase3"></use>
-                <path fill="#f6820c" d="m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z"></path>
-                <path fill="#fde068"
-                  d="m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005">
-                </path>
-                <path fill="#fcca3f"
-                  d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006z">
-                </path>
-                <path fill="#eeab37"
-                  d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"SEDIC’s growth into new markets is fueled by our unwavering
-                commitment to innovation, sustainability, and delivering transformative engineering solutions."
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-sky-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-sky-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-sky-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
-                <path fill="#0080ff"
-                  d="M64.142 102.96H39.24V78.522h24.903ZM39.24 122.131H20.373v-19.173H39.24Zm-18.866-19.173H4.53V87.167h15.843Zm43.394 24.814v-24.814c26.41 0 46.784-25.94 36.597-53.388c-3.775-10.15-11.694-18.42-22.26-22.181c-27.167-9.772-53.2 10.527-53.2 36.468H0c0-41.354 40.37-74.064 84.52-60.53c19.242 6.017 34.334 21.055 40.37 40.23c13.581 43.985-19.245 84.214-61.123 84.214Zm0 0">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Every project we undertake is a reflection of our dedication
-                to creating a better, more sustainable future through the power of engineering."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
- 
-
-</div>
-
-
-<div id="ProjectConstructionPage" class="hide-page dark:bg-zinc-800 min-h-screen">
-   
-<!-- component -->
-<div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
+<div id="services" class="section bg:white dark:bg-zinc-900 relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white">
     <div class="container xl:max-w-6xl mx-auto px-4">
         <!-- Heading start -->
         <header class="text-center mx-auto mb-12 lg:px-20">
-            <h2 class="text-2xl leading-normal mb-2 font-bold text-black">What We Do</h2>
+            <h2 class="text-2xl leading-normal mb-2 font-bold text-amber-400">Substaions Projects</h2>
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
                 <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
                 <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
@@ -2267,13 +1662,19 @@ document.querySelector("#app").innerHTML = `
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg leading-normal mb-2 font-semibold text-black">FONADE</h3>
-                    <p class="text-gray-500">
-  Technical, administrative, and budgetary control supervision for the construction of main canals 2, 3, and 4, including component structures and complementary works of the 
-  <a href="https://www.findeter.gov.co/system/files/convocatorias/PAF-ADR-C-023-2020/PAF-ADR-C-023-2020%40paf-adr-c-023-2020_anexo-especificaciones-tecnicas-triangulo-fd-revision-ga-dat-vip.pdf" target="_blank" class="text-blue-500 hover:underline">
-    Triángulo del Tolima irrigation district
-  </a> in the municipality of Coyaima, Tolima.
-</p>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.celsia.com/es/quienes-somos/la-nueva-era-de-la-energia/" target="_blank" class="text-blue-600 hover:underline">
+  EPSA
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>EPSA Project </strong> – Comprehensive technical, administrative, and environmental advisory and supervision for the construction of a 34.5 kV transmission line connecting the Alto and Bajo Tulúa Hydroelectric Power Plants. The project involves overseeing the design and implementation of the high-voltage transmission infrastructure, ensuring adherence to industry standards, environmental regulations, and safety protocols. It also includes project management support, budgeting oversight, risk management, and monitoring of environmental impacts throughout the construction phase, contributing to the efficient and sustainable operation of the hydroelectric plants.</li>
+  
+</ul>
+
+
+
 
                 </div>
                 <!-- end service block -->
@@ -2289,21 +1690,193 @@ document.querySelector("#app").innerHTML = `
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-3">
-    <a href="https://www.epm.com.co/institucional/sobre-epm/quienes-somos.html" target="_blank" class="text-blue-600 hover:underline">
-      EPM – Water & Sanitation Projects
+  <a href="https://www.epm.com.co/institucional/proyectos/" target="_blank" class="text-blue-600 hover:underline">
+    EPM
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Design of 230 kV Substation at Playas Hydroelectric Plant</strong> – The project involves the design of a 230 kV substation as part of the infrastructure for the Playas Hydroelectric Plant.</li>
+  <li><strong>Design of 115/13.2 kV Substation for Playas Hydroelectric Plant</strong> – This project focuses on the design of a 115/13.2 kV substation for the construction of the Playas Hydroelectric Plant.</li>
+  <li><strong>Transmission Line Supervision for 110 kV Río Claro</strong> – Supervision of the transmission lines at 110 kV, covering distances of 39 and 61 kilometers.</li>
+  <li><strong>Design of 230 kV Transmission Line from Playas to Guatapé to Substation Oriente</strong> – This project includes the design of a 56 km transmission line at 230 kV, connecting Playas to Guatapé and Substation Oriente.</li>
+
+</ul>
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-badge-ad" viewBox="0 0 16 16">
+                            <path d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"></path>
+                            <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.isa.co/es/grupo-isa/estructura-societaria/" target="_blank" class="text-blue-600 hover:underline">
+  ISA
+  </a>
+</h3>
+<p class="text-gray-600 mb-3">
+Project Control Services for 500 and 230 kV Transmission Lines and Substations
+These projects involve the oversight and control of construction for 500 kV and 230 kV transmission lines, a 230 kV underground line, and the construction of 500 kV and 230 kV substations, including GIS-type substations.
+</p>
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Transmission Line Supervision for 230 kV La Virginia - La Hermosa</strong> – Supervision of the 27 km 230 kV transmission line between La Virginia and La Hermosa.</li>
+  <li><strong>Transmission Line for 230 kV Sabanalarga - Fundación</strong> – The construction and supervision of a 90 km 230 kV transmission line from Sabanalarga to Fundación.</li>
+  <li><strong>Design and Supervision of 230 kV Transmission Line from Guatapé to Jaguas</strong> – This project includes both the design and supervision of an 18 km 230 kV transmission line connecting Guatapé to Jaguas.</li>
+</ul>
+
+
+
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"></path>
+                            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.h-mv.com/Nosotros/nosotros.aspx?Id=42&Lang=es-CO" target="_blank" class="text-blue-600 hover:underline">
+  
+HMV
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Design of Civil Works for New Hope Substation (115 kV)</strong> – This project involves the design of the civil infrastructure for the 115 kV New Hope Substation, ensuring its proper setup for efficient energy distribution.</li>
+  
+</ul>
+
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www.se.com/co/es/about-us/company-profile/" target="_blank" class="text-blue-600 hover:underline">
+  
+Schneider Electric de Colombia S.A.
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Design of Coveñas Substation (110/34.5/13.8 kV, SF6)</strong> – This project involves the design of a SF6-insulated substation to enhance power distribution capabilities in the Coveñas region.</li>
+  <li><strong>Design of Dosquebradas Substation (115/33/13.2 kV)</strong> – Expert design services for a substation to improve electrical transmission and distribution in the Dosquebradas area.</li>
+  <li><strong>Supervision of La Sierra Substation (230 kV)</strong> – Providing technical oversight and supervision for the construction and commissioning of the 230 kV La Sierra Substation.</li>
+</ul>
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+  <a href="https://www1.upme.gov.co/Entornoinstitucional/Paginas/quienes-somos.aspx" target="_blank" class="text-blue-600 hover:underline">
+  UPME
+  </a>
+</h3>
+
+<ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong>Oversight for the Design, Supply Procurement, Construction, Operation, and Maintenance of the Chivor and Norte 230 kV Substations and Associated Transmission Linest</strong> – This project includes comprehensive oversight of the design, procurement, construction, and ongoing operation and maintenance of the Chivor and Norte 230 kV substations and their corresponding transmission lines.</li>
+  <li><strong>Oversight for the Design, Supply Procurement, Construction, Operation, and Maintenance of the Quimbo 230 kV Substation and Associated Transmission Linest</strong> – Providing full project oversight for the design, supply procurement, construction, operation, and maintenance of the Quimbo 230 kV substation and its linked transmission lines.</li>
+
+
+</ul>
+                </div>
+                <!-- end service block -->
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+</div>
+
+</div>
+
+
+<div id="ProjectConstructionPage" class="hide-page dark:bg-zinc-900 min-h-screen">
+   
+<!-- component -->
+<div id="services" class="section relative pt-20 pb-8 bg:white dark:bg-zinc-900 md:pt-16 md:pb-0 bg-white">
+    <div class="container  xl:max-w-6xl mx-auto px-4">
+        <!-- Heading start -->
+        <header class="text-center mx-auto mb-12 lg:px-20">
+            <h2 class="text-2xl leading-normal mb-2 font-bold text-amber-400">Construction Projects</h2>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
+                <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
+                <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
+                <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
+            </svg>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+        </header>
+        <!-- End heading -->
+        <!-- row -->
+        <div class="flex flex-wrap flex-row -mx-4 text-center">
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2  lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.airplan.aero/quienes-somos" target="_blank" class="text-blue-600 hover:underline">
+    Airplan
     </a>
   </h3>
-  <p class="text-gray-600 mb-3">
-    Extensive experience in technical, administrative, environmental, and social supervision of major infrastructure projects, including:
-  </p>
   <ul class="text-gray-600 list-disc list-inside space-y-2">
-    <li><strong>Relocation of networks & civil works</strong> – Parques del Río (Stage 1.1, Eastern Side).</li>
-    <li><strong>Modernization & expansion of sewer systems</strong> – Bello, Copacabana, and Girardota.</li>
-    <li><strong>Construction & rehabilitation of water and sewer networks</strong> – Doce de Octubre, Cuenca La Seca, Picacho, and Popular circuits.</li>
-    <li><strong>Supervision of water supply & sanitation contracts</strong> – Sabaneta, Envigado, and Retiro.</li>
-    <li><strong>Rehabilitation of the Piedras Blancas Reservoir</strong> and loss reduction studies.</li>
-    <li><strong>Optimization of wastewater collection & treatment systems</strong> – Aburrá Valley.</li>
-    <li><strong>Supervision of aqueduct & sewer infrastructure</strong> – Cuenca Norte and Santa Helena.</li>
+    <li><strong>Cargo Terminal Supervision – José María Córdova Airport</strong> – This project involved overseeing the construction of warehouses at the cargo terminal of José María Córdova International Airport in Rionegro, ensuring compliance with technical, administrative, and safety standards.</li>
+</ul>
+
+
+</div>
+                
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.epm.com.co/institucional/sobre-epm/quienes-somos/direccionamiento-estrategico.html" target="_blank" class="text-blue-600 hover:underline">
+      EPM
+    </a>
+  </h3>
+
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>EPM Public Utilities Building – Design & Engineering Supervision</strong> – Comprehensive design, structural engineering, and technical advisory services for the construction of the Empresas Públicas de Medellín (EPM) headquarters. This project involved detailed planning, sustainable design considerations, and oversight to ensure the successful execution of one of Medellín’s most emblematic corporate buildings.</li>
+    
   </ul>
                 </div>
                 <!-- end service block -->
@@ -2319,17 +1892,15 @@ document.querySelector("#app").innerHTML = `
                         </svg>
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-3">
-    <a href="https://tinyurl.com/yzj2fvh3" target="_blank" class="text-blue-600 hover:underline">
-      EAAB – Water Infrastructure Projects
+    <a href="https://www.meals.com.co/about/inspira" target="_blank" class="text-blue-600 hover:underline">
+    Construction Supervision of CEDI Ibagué Helados
     </a>
   </h3>
-  <p class="text-gray-600 mb-3">
-    EAAB specializes in the rehabilitation and construction of water infrastructure, with key projects such as:
-  </p>
+ 
   <ul class="text-gray-600 list-disc list-inside space-y-2">
-    <li><strong><a href="https://tinyurl.com/j7ns5m9p" target="_blank" class="text-blue-600 hover:underline">Supervision during the rehabilitation of tunnels</a></strong> and other structures in the <strong>Chingaza system</strong>, including the installation of a guard valve at La Ventana.</li>
-    <li><strong>Supervision during the construction of flood control works</strong> in the <strong>Tunjuelo River basin</strong> – Cantarrana Dam and related works.</li>
-    <li><strong><a href="https://tinyurl.com/4cewe8mb" target="_blank" class="text-blue-600 hover:underline">Monitoring of civil works supervision</a></strong> for the <strong>Chuza, San Rafael, Chisacá, and La Regadera reservoirs</strong>.</li>
+    
+    <li><strong>Construction Supervision of CEDI Ibagué Helados</strong> – Comprehensive technical, administrative, and financial oversight of the construction of the CEDI Ibagué Helados distribution center. This project involved ensuring compliance with structural and architectural design specifications, adherence to safety and environmental regulations, and strict quality control throughout the construction phases. The supervision also covered budget management, risk mitigation strategies, and coordination between contractors and stakeholders to optimize efficiency and ensure the successful completion of the facility within the established timeline.</li>
+    
   </ul>
                 </div>
                 <!-- end service block -->
@@ -2346,12 +1917,13 @@ document.querySelector("#app").innerHTML = `
                     </div>
                     <h3 class="text-xl font-semibold text-black mb-3">
     <a href="https://www.grupo-epm.com/site/aguasnacionales/" target="_blank" class="text-blue-600 hover:underline">
-      AGUAS NACIONALES 
+      
+Grupo Nutresa
     </a>
   </h3>
   
   <ul class="text-gray-600 list-disc list-inside space-y-2">
-    <li><strong>Supervision for the technical, administrative, and contractual oversight</strong> of the supply, installation, and field testing of electromechanical equipment, civil works execution, and commissioning of the Bello wastewater treatment plant.</li>
+    <li><strong>Civil Works Supervision</strong> Supervision and planning of maintenance and civil works projects across Grupo Nutresa’s facilities, ensuring quality, compliance, and efficient execution.</li>
   </ul>
                 </div>
                 <!-- end service block -->
@@ -2365,8 +1937,16 @@ document.querySelector("#app").innerHTML = `
                             <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Budget &amp; Marketing</h3>
-                    <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.clinicamedellin.com/" target="_blank" class="text-blue-600 hover:underline">
+      
+    Clínica Medellín
+    </a>
+  </h3>
+  
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>Expansion & Renovation Supervision</strong> We supervised the expansion and renovation of Clínica Medellín, ensuring the project met healthcare standards. Our responsibilities included managing contractors, maintaining timelines, and ensuring the quality of construction. The goal was to improve the facility’s capacity and services while complying with technical and safety regulation</li>
+  </ul>
                 </div>
                 <!-- end service block -->
             </div>
@@ -2379,8 +1959,18 @@ document.querySelector("#app").innerHTML = `
                             <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Optimize conversions</h3>
-                    <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.fiscalia.gov.co/colombia/la-entidad/quienes-somos/mision-y-vision/" target="_blank" class="text-blue-600 hover:underline">
+      
+    Fiscalía General de la Nación
+    </a>
+  </h3>
+  
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>Design and Construction Supervision of the Ibagué Headquarters</strong> We provided design, cost control, scheduling, and technical supervision for the construction of the new Fiscalía General de la Nación headquarters in Ibagué, Tolima. The project involved creating a modern facility for judicial functions, focusing on efficiency and functionality.
+
+Our team ensured the design met all necessary requirements and standards, while overseeing the construction process to stay within budget and timeline. We provided continuous technical oversight, ensuring quality, compliance with regulations, and effective communication between all parties involved</li>
+  </ul>
                 </div>
                 <!-- end service block -->
             </div>
@@ -2393,263 +1983,170 @@ document.querySelector("#app").innerHTML = `
 
 
 
-<div id="ProjectIndustrialPage" class="hide-page dark:bg-zinc-800 min-h-screen">
+<div id="ProjectIndustrialPage" class="hide-page dark:bg-zinc-900 min-h-screen">
    
-<div class="py-16 dark:bg-zinc-900">
-    <div class="mx-auto px-6 max-w-6xl  text-gray-500">
-      <div class="text-center">
-        <h2 class="text-3xl text-gray-950 dark:text-white font-semibold">Our Goals and Objectives</h2>
-        <p class="mt-6 text-gray-700 dark:text-gray-300"></p>
-      </div>
-      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-blue-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-blue-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-blue-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg class="text-[#000014] dark:text-white" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
-                viewBox="0 0 128 128">
-                <defs>
-                  <linearGradient id="deviconAstro0" x1="882.997" x2="638.955" y1="27.113" y2="866.902"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="currentColor"></stop>
-                    <stop offset="1" stop-color="currentColor"></stop>
-                  </linearGradient>
-                  <linearGradient id="deviconAstro1" x1="1001.68" x2="790.326" y1="652.45" y2="1094.91"
-                    gradientTransform="scale(.1)" gradientUnits="userSpaceOnUse">
-                    <stop offset="0" stop-color="#ff1639"></stop>
-                    <stop offset="1" stop-color="#ff1639" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#deviconAstro0)"
-                  d="M81.504 9.465c.973 1.207 1.469 2.836 2.457 6.09l21.656 71.136a90.079 90.079 0 0 0-25.89-8.765L65.629 30.28a1.833 1.833 0 0 0-3.52.004L48.18 77.902a90.104 90.104 0 0 0-26.003 8.778l21.758-71.14c.996-3.25 1.492-4.876 2.464-6.083a8.023 8.023 0 0 1 3.243-2.398c1.433-.575 3.136-.575 6.535-.575H71.72c3.402 0 5.105 0 6.543.579a7.988 7.988 0 0 1 3.242 2.402Zm0 0">
-                </path>
-                <path fill="#ff5d01"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-                <path fill="url(#deviconAstro1)"
-                  d="M84.094 90.074c-3.57 3.055-10.696 5.137-18.903 5.137c-10.07 0-18.515-3.137-20.754-7.356c-.8 2.418-.98 5.184-.98 6.954c0 0-.527 8.675 5.508 14.71a5.671 5.671 0 0 1 5.672-5.671c5.37 0 5.367 4.683 5.363 8.488v.336c0 5.773 3.527 10.719 8.543 12.805a11.62 11.62 0 0 1-1.172-5.098c0-5.508 3.23-7.555 6.988-9.938c2.989-1.894 6.309-4 8.594-8.222a15.513 15.513 0 0 0 1.875-7.41a15.55 15.55 0 0 0-.734-4.735m0 0">
-                </path>
-              </svg>
-            </div>
+<div id="services" class="section relative pt-20 pb-8 bg:white dark:bg-zinc-900 md:pt-16 md:pb-0 bg-white">
+    <div class="container  xl:max-w-6xl mx-auto px-4">
+        <!-- Heading start -->
+        <header class="text-center mx-auto mb-12 lg:px-20">
+            <h2 class="text-2xl leading-normal mb-2 font-bold text-amber-400">Industrial Projects</h2>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 60" style="margin: 0 auto;height: 35px;" xml:space="preserve">
+                <circle cx="50.1" cy="30.4" r="5" class="stroke-primary" style="fill: transparent;stroke-width: 2;stroke-miterlimit: 10;"></circle>
+                <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
+                <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
+            </svg>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+        </header>
+        <!-- End heading -->
+        <!-- row -->
+        <div class="flex flex-wrap flex-row -mx-4 text-center">
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2  lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.cerromatoso.com.co/" target="_blank" class="text-blue-600 hover:underline">
+    Cerro Matoso S.A.
+    </a>
+  </h3>
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>Slag Pot Tilting System Design </strong> – Engineered an efficient mechanism for handling and tilting slag pots to optimize operations.</li>
+    <li><strong>Sludge Pumping Station Design </strong> – Developed a pumping system for effective sludge management and disposal.</li>
+  </ul>
 
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Multidisciplinary Excellence
-                "A team of over 300 experts combining deep technical knowledge with practical insights."</p>
+
+</div>
+                
             </div>
-          </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-chat-square-dots" viewBox="0 0 16 16">
+                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+                            <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.kimberly-clark.com/en-us/company/about-us" target="_blank" class="text-blue-600 hover:underline">
+    KYMBERLY CLARK
+    </a>
+  </h3>
+
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>
+Effluent Treatment Sludge Hopper Discharge System Upgrade</strong> – Engineering design for the modification of the concrete sludge hopper discharge system to enhance the efficiency and reliability of the effluent water treatment process. The project aimed to improve structural integrity, optimize flow management, and ensure compliance with environmental regulations.</li>
+    
+  </ul>
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-badge-ad" viewBox="0 0 16 16">
+                            <path d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"></path>
+                            <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.postobon.com/la-compania/quienes-somos" target="_blank" class="text-blue-600 hover:underline">
+    Postobón
+    </a>
+  </h3>
+ 
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    
+    <li><strong>Comprehensive Flood Hazard Assessment
+    </strong> – We conducted an extensive flood hazard assessment for Quebrada La Mosca, focusing on Postobón’s property in Guarne. This study involved hydrological and hydraulic modeling to delineate floodplains, evaluate water flow patterns, and determine flood risk levels. The project included the development of a flood hazard map to identify vulnerable areas, inform land-use planning, and support mitigation strategies. Our findings provided critical insights for infrastructure resilience, ensuring Postobón’s operations remain safeguarded against potential flood impacts.</li>
+    
+  </ul>
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"></path>
+                            <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.uniban.com/sobre-nosotros/" target="_blank" class="text-blue-600 hover:underline">
+      
+    UNIBAN
+    </a>
+  </h3>
+  
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>Fixed Crane Installation Design</strong> We carried out the studies, calculations, and design for the civil works required to install a fixed crane at UNIBAN’s facilities, ensuring structural stability and operational efficiency.</li>
+  </ul>
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-wallet2" viewBox="0 0 16 16">
+                            <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.enka.com.co/la-empresa/quienes-somos/" target="_blank" class="text-blue-600 hover:underline">
+      
+    ENKA
+    </a>
+  </h3>
+  
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+  <li><strong> Building Design & Oversight</strong> We conducted soil studies and provided structural design and construction oversight for multiple buildings.
+
+</li>
+  <li><strong>Water Conduction System</strong> We designed and supervised the construction of a water conduction system for efficient water management.</li>
+  </ul>
+                </div>
+                <!-- end service block -->
+            </div>
+            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <!-- service block -->
+                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                    <div class="inline-block text-gray-900 mb-4">
+                        <!-- icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-black mb-3">
+    <a href="https://www.cryogas.com.co/Web/CO/Compania/Descripcion-General" target="_blank" class="text-blue-600 hover:underline">
+      
+    Cryogas
+    </a>
+  </h3>
+  
+  <ul class="text-gray-600 list-disc list-inside space-y-2">
+    <li><strong>Air Processing Plant</strong> We executed the detailed engineering and provided oversight during the construction of an air processing plant in Barbosa, Antioquia, specializing in the extraction of oxygen, nitrogen, and argon in both liquid and gaseous forms.</li>
+<li><strong>Air Fractionation Plant</strong> We designed and provided oversight for the installation of an air fractionation plant in Sibaté, Cundinamarca, ensuring efficient separation of gases for industrial use.</li>
+</ul>
+                </div>
+                <!-- end service block -->
+            </div>
         </div>
-        <div href="#"
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-green-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-green-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-green-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.98em" height="1em" viewBox="0 0 256 263">
-                <defs>
-                  <linearGradient id="logosSupabaseIcon0" x1="20.862%" x2="63.426%" y1="20.687%" y2="44.071%">
-                    <stop offset="0%" stop-color="#249361"></stop>
-                    <stop offset="100%" stop-color="#3ecf8e"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosSupabaseIcon1" x1="1.991%" x2="21.403%" y1="-13.158%" y2="34.708%">
-                    <stop offset="0%"></stop>
-                    <stop offset="100%" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosSupabaseIcon0)"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="url(#logosSupabaseIcon1)" fill-opacity="0.2"
-                  d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z">
-                </path>
-                <path fill="#3ecf8e"
-                  d="M106.399 4.37c6.717-8.461 20.338-3.826 20.5 6.976l1.037 157.984H23.037c-19.241 0-29.973-22.223-18.008-37.292z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Phase III Studies and Designs for the Embankment Recovery Works in the Influence Area of the Café Airport, located in the Municipality of Palestina, Caldas.""</p>
-            </div>
-
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-0">
-  <button onclick="window.location.href='https://aeropuertodelcafe.com.co/'" 
-    class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950  disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:border-gray-600 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-    <span>Learn More</span>
-    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed">
-      <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-    </svg>
-  </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-red-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-red-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-red-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.95em" height="1em" viewBox="0 0 256 271">
-                <defs>
-                  <linearGradient id="logosAngularIcon0" x1="25.071%" x2="96.132%" y1="90.929%" y2="55.184%">
-                    <stop offset="0%" stop-color="#e40035"></stop>
-                    <stop offset="24%" stop-color="#f60a48"></stop>
-                    <stop offset="35.2%" stop-color="#f20755"></stop>
-                    <stop offset="49.4%" stop-color="#dc087d"></stop>
-                    <stop offset="74.5%" stop-color="#9717e7"></stop>
-                    <stop offset="100%" stop-color="#6c00f5"></stop>
-                  </linearGradient>
-                  <linearGradient id="logosAngularIcon1" x1="21.863%" x2="68.367%" y1="12.058%" y2="68.21%">
-                    <stop offset="0%" stop-color="#ff31d9"></stop>
-                    <stop offset="100%" stop-color="#ff5be1" stop-opacity="0"></stop>
-                  </linearGradient>
-                </defs>
-                <path fill="url(#logosAngularIcon0)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-                <path fill="url(#logosAngularIcon1)"
-                  d="m256 45.179l-9.244 145.158L158.373 0zm-61.217 187.697l-66.782 38.105l-66.784-38.105L74.8 199.958h106.4zM128.001 72.249l34.994 85.076h-69.99zM9.149 190.337L0 45.179L97.627 0z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Discover how over 50 years of engineering excellence is
-                shaping the future. Learn more about SEDIC's commitment to innovation, sustainability, and our recent
-                expansion into the U.S."</p>
-            </div>
-            <div class="flex gap-3 -mb-4 py-4 border-t border-gray-200 dark:border-gray-800">
-              <button id="aboutlink"
-                class="group rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 flex gap-1.5 items-center text-sm h-8 px-3.5 justify-center">
-                <span>Learn More</span>
-                <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px"
-                  fill="#e8eaed">
-                  <path d="M666.15-464H232v-32h434.15L457.46-704.69 480-728l248 248-248 248-22.54-23.31L666.15-464Z" />
-                </svg>
-              </button>
-
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-gray-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-gray-500/10 flex relative *:relative *:size-6 *:m-auto  text-gray-950 dark:text-white size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-gray-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 15 15">
-                <path fill="currentColor"
-                  d="m4.5 4.5l.405-.293A.5.5 0 0 0 4 4.5zm3 9.5A6.5 6.5 0 0 1 1 7.5H0A7.5 7.5 0 0 0 7.5 15zM14 7.5A6.5 6.5 0 0 1 7.5 14v1A7.5 7.5 0 0 0 15 7.5zM7.5 1A6.5 6.5 0 0 1 14 7.5h1A7.5 7.5 0 0 0 7.5 0zm0-1A7.5 7.5 0 0 0 0 7.5h1A6.5 6.5 0 0 1 7.5 1zM5 12V4.5H4V12zm-.905-7.207l6.5 9l.81-.586l-6.5-9zM10 4v6h1V4z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">Project Efficiency
-                "Delivering projects with precision, quality, and efficiency using cutting-edge methodologies."</p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-yellow-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-yellow-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-yellow-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="0.73em" height="1em" viewBox="0 0 256 351">
-                <defs>
-                  <filter id="logosFirebase0" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="17.5"></feGaussianBlur>
-                    <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0">
-                    </feColorMatrix>
-                  </filter>
-                  <filter id="logosFirebase1" width="200%" height="200%" x="-50%" y="-50%"
-                    filterUnits="objectBoundingBox">
-                    <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="3.5"></feGaussianBlur>
-                    <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
-                    <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic"
-                      result="shadowInnerInner1"></feComposite>
-                    <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0">
-                    </feColorMatrix>
-                  </filter>
-                  <path id="logosFirebase2"
-                    d="m1.253 280.732l1.605-3.131l99.353-188.518l-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188z">
-                  </path>
-                  <path id="logosFirebase3"
-                    d="m134.417 148.974l32.039-32.812l-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109l-.53 1.744z">
-                  </path>
-                </defs>
-                <path fill="#ffc24a"
-                  d="m0 282.998l2.123-2.972L102.527 89.512l.212-2.017L58.48 4.358C54.77-2.606 44.33-.845 43.114 6.951z">
-                </path>
-                <use fill="#ffa712" fill-rule="evenodd" href="#logosFirebase2"></use>
-                <use filter="url(#logosFirebase0)" href="#logosFirebase2"></use>
-                <path fill="#f4bd62"
-                  d="m135.005 150.38l32.955-33.75l-32.965-62.93c-3.129-5.957-11.866-5.975-14.962 0L102.42 87.287v2.86z">
-                </path>
-                <use fill="#ffa50e" fill-rule="evenodd" href="#logosFirebase3"></use>
-                <use filter="url(#logosFirebase1)" href="#logosFirebase3"></use>
-                <path fill="#f6820c" d="m0 282.998l.962-.968l3.496-1.42l128.477-128l1.628-4.431l-32.05-61.074z"></path>
-                <path fill="#fde068"
-                  d="m139.121 347.551l116.275-64.847l-33.204-204.495c-1.039-6.398-8.888-8.927-13.468-4.34L0 282.998l115.608 64.548a24.126 24.126 0 0 0 23.513.005">
-                </path>
-                <path fill="#fcca3f"
-                  d="M254.354 282.16L221.402 79.218c-1.03-6.35-7.558-8.977-12.103-4.424L1.29 282.6l114.339 63.908a23.943 23.943 0 0 0 23.334.006z">
-                </path>
-                <path fill="#eeab37"
-                  d="M139.12 345.64a24.126 24.126 0 0 1-23.512-.005L.931 282.015l-.93.983l115.607 64.548a24.126 24.126 0 0 0 23.513.005l116.275-64.847l-.285-1.752z">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"SEDIC’s growth into new markets is fueled by our unwavering
-                commitment to innovation, sustainability, and delivering transformative engineering solutions."
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-600 dark:bg-gray-900">
-          <div aria-hidden="true"
-            class="inset-0 absolute aspect-video border rounded-full -translate-y-1/2 group-hover:-translate-y-1/4 duration-300 bg-gradient-to-b from-sky-500 to-white dark:from-white dark:to-white blur-2xl opacity-25 dark:opacity-5 dark:group-hover:opacity-10">
-          </div>
-          <div class="relative">
-            <div
-              class="border border-sky-500/10 flex relative *:relative *:size-6 *:m-auto size-12 rounded-lg dark:bg-gray-900 dark:border-white/15 before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-sky-100 dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent before:shadow dark:before:shadow-gray-950">
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 128 128">
-                <path fill="#0080ff"
-                  d="M64.142 102.96H39.24V78.522h24.903ZM39.24 122.131H20.373v-19.173H39.24Zm-18.866-19.173H4.53V87.167h15.843Zm43.394 24.814v-24.814c26.41 0 46.784-25.94 36.597-53.388c-3.775-10.15-11.694-18.42-22.26-22.181c-27.167-9.772-53.2 10.527-53.2 36.468H0c0-41.354 40.37-74.064 84.52-60.53c19.242 6.017 34.334 21.055 40.37 40.23c13.581 43.985-19.245 84.214-61.123 84.214Zm0 0">
-                </path>
-              </svg>
-            </div>
-
-            <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
-              <p class="text-gray-700 dark:text-gray-300">"Every project we undertake is a reflection of our dedication
-                to creating a better, more sustainable future through the power of engineering."</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        <!-- end row -->
     </div>
-  </div>
+</div>
 
   </div>
 
@@ -2989,16 +2486,16 @@ document.querySelector("#app").innerHTML = `
 
     <div class="p-5">
       <div class="text-sm uppercase text-indigo-600 font-bold">Resources</div>
-      <a id="aboutlink2" class="my-3 hover:text-amber-400 dark:text-white block" href="/#">About <span class="text-teal-600 text-xs p-1"></span></a>
-      <a id="serviceslink2" class="my-3 hover:text-amber-400   dark:text-white block" href="/#">Services <span class="text-teal-600 text-xs p-1"></span></a>
-      <a id="Contactlink2" class="my-3 hover:text-amber-400  dark:text-white block" href="/#">Contact Us <span class="text-lime-500 text-xs p-1">New</span></a>
+      <button id="aboutlink2" class="my-3 hover:text-amber-400 dark:text-white block" href="/#">About <span class="text-teal-600 text-xs p-1"></span></button>
+      <button id="serviceslink2" class="my-3 hover:text-amber-400   dark:text-white block" href="/#">Services <span class="text-teal-600 text-xs p-1"></span></button>
+      <button id="Contactlink2" class="my-3 hover:text-amber-400  dark:text-white block" href="/#">Contact Us <span class="text-lime-500 text-xs p-1">New</span></button>
     </div>
 
     <div class="p-5">
       <div class="text-sm uppercase text-indigo-600 font-bold">Support</div>
-      <a id="Documentationlink" class="my-3 hover:text-amber-400 dark:text-white block" href="/#">Documentation <span class="text-teal-600 text-s p-1"></span></a>
+      <button id="Documentationlink" class="my-3 hover:text-amber-400 dark:text-white block" href="/#">Documentation <span class="text-teal-600 text-s p-1"></span></button>
       <button id="privacypolicylink" class="my-3 hover:text-amber-400 dark:text-white block" href="/#">Privacy Policy <span class="text-teal-600 text-s p-1"></span></button>
-      <a id="TermsConditionslink" class="my-3 hover:text-amber-400  dark:text-white block" href="/#">Terms & Conditions <span class="text-teal-600 text-s p-1"></span></a>
+      <button id="TermsConditionslink" class="my-3 hover:text-amber-400  dark:text-white block" href="/#">Terms & Conditions <span class="text-teal-600 text-s p-1"></span></button>
     </div>
     <div class="p-2 pt-5">
       <div class="text-sm uppercase text-indigo-600 font-bold">Contact us</div>
@@ -3017,7 +2514,9 @@ document.querySelector("#app").innerHTML = `
   <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col
         max-w-screen-lg items-center">
     <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-      <button id="facebookLink"
+
+    <a href="https://es-la.facebook.com/SedicIngenierosConsultores" target="_blank" id="facebookLink">
+      <button 
         class=" cursor-pointer rounded-md shadow-md shadow-transparent transition-all  duration-300 dark:hover:shadow-indigo-400 hover:shadow-indigo-200">
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 92 92" fill="none">
           <rect x="0.138672" width="" height="" rx="15" fill="#EDF4FF" />
@@ -3026,15 +2525,19 @@ document.querySelector("#app").innerHTML = `
             fill="#337FFF" />
         </svg>
       </button>
-      <button id="linkedinLink"
-        class="cursor-pointer rounded-md shadow-md  shadow-transparent transition-all    duration-300 dark:hover:shadow-blue-400 hover:shadow-blue-200">
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 92 93" fill="none">
-          <rect x="0.138672" y="1" width="91.5618" height="91.5618" rx="15" fill="none" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M24.6975 21.5618C22.6561 21.5618 21 23.1674 21 25.1456V68.0091C21 69.9875 22.6563 71.5918 24.6975 71.5918H67.3325C69.3747 71.5918 71.03 69.9873 71.03 68.0086V25.1456C71.03 23.1674 69.3747 21.5618 67.3325 21.5618H24.6975ZM36.2032 40.9068V63.4304H28.7167V40.9068H36.2032ZM36.6967 33.9411C36.6967 36.1025 35.0717 37.8321 32.4615 37.8321L32.4609 37.8319H32.4124C29.8998 37.8319 28.2754 36.1023 28.2754 33.9409C28.2754 31.7304 29.9489 30.0491 32.5111 30.0491C35.0717 30.0491 36.6478 31.7304 36.6967 33.9411ZM47.833 63.4304H40.3471L40.3469 63.4312C40.3469 63.4312 40.4452 43.0205 40.3475 40.9075H47.8336V44.0957C48.8288 42.5613 50.6098 40.3787 54.5808 40.3787C59.5062 40.3787 63.1991 43.598 63.1991 50.516V63.4304H55.7133V51.3822C55.7133 48.354 54.6293 46.2887 51.921 46.2887C49.8524 46.2887 48.6206 47.6815 48.0796 49.0271C47.8819 49.5072 47.833 50.1813 47.833 50.8535V63.4304Z"
-            fill="#006699" />
-        </svg>
-      </button>
+      </a>
+
+      <a href="https://www.linkedin.com/company/sedic-s-a/?originalSubdomain=co" target="_blank" id="linkedinLink">
+  <button class="cursor-pointer rounded-md shadow-md shadow-transparent transition-all duration-300 dark:hover:shadow-blue-400 hover:shadow-blue-200">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 92 93" fill="none">
+      <rect x="0.138672" y="1" width="91.5618" height="91.5618" rx="15" fill="none" />
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M24.6975 21.5618C22.6561 21.5618 21 23.1674 21 25.1456V68.0091C21 69.9875 22.6563 71.5918 24.6975 71.5918H67.3325C69.3747 71.5918 71.03 69.9873 71.03 68.0086V25.1456C71.03 23.1674 69.3747 21.5618 67.3325 21.5618H24.6975ZM36.2032 40.9068V63.4304H28.7167V40.9068H36.2032ZM36.6967 33.9411C36.6967 36.1025 35.0717 37.8321 32.4615 37.8321L32.4609 37.8319H32.4124C29.8998 37.8319 28.2754 36.1023 28.2754 33.9409C28.2754 31.7304 29.9489 30.0491 32.5111 30.0491C35.0717 30.0491 36.6478 31.7304 36.6967 33.9411ZM47.833 63.4304H40.3471L40.3469 63.4312C40.3469 63.4312 40.4452 43.0205 40.3475 40.9075H47.8336V44.0957C48.8288 42.5613 50.6098 40.3787 54.5808 40.3787C59.5062 40.3787 63.1991 43.598 63.1991 50.516V63.4304H55.7133V51.3822C55.7133 48.354 54.6293 46.2887 51.921 46.2887C49.8524 46.2887 48.6206 47.6815 48.0796 49.0271C47.8819 49.5072 47.833 50.1813 47.833 50.8535V63.4304Z"
+        fill="#006699" />
+    </svg>
+  </button>
+</a>
+
     <button id="googleLink" class="w-12 h-12 flex items-center justify-center cursor-pointer rounded-md shadow-md shadow-transparent transition-all duration-300 dark:hover:shadow-blue-400 hover:shadow-blue-200">
   <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 54 41" fill="none">
     <path d="M4.00654 40.1236H12.4893V19.5227L0.371094 10.4341V36.4881C0.371094 38.4997 2.00099 40.1236 4.00654 40.1236Z" fill="#4285F4" />
@@ -3046,7 +2549,7 @@ document.querySelector("#app").innerHTML = `
 </button>
 
     </div>
-    <div class=" dark:text-white my-5">© Copyright 2020. All Rights Reserved.</div>
+    <div class=" dark:text-white my-5">© Copyright 2025. All Rights Reserved.</div>
   </div>
 </div>
 
@@ -3132,15 +2635,15 @@ const routesConfig = [
   },
   {
     triggerElement: serviceRoute,
-    pagesToHide: [homePageRoute, aboutPageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage],
+    pagesToHide: [homePageRoute, aboutPageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: servicePageRoute,
     imagesToHide: [backgroundImg, aboutImg, blogImg, locationsImg, contactImg],
     imageToShow: serviceImg,
-    route: "/service" // URL route for this page
+    route: "/services" // URL route for this page
   },
   {
     triggerElement: blogRoute,
-    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage],
+    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: blogPageRoute,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, locationsImg, contactImg],
     imageToShow: blogImg,
@@ -3156,7 +2659,7 @@ const routesConfig = [
   },
   {
     triggerElement: contactRoute,
-    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage],
+    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: contactPageRoute,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, locationsImg],
     imageToShow: contactImg,
@@ -3172,7 +2675,7 @@ const routesConfig = [
   },
   {
     triggerElement: aboutRoute2,
-    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage],
+    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: aboutPageRoute,
     imagesToHide: [backgroundImg, serviceImg, blogImg, locationsImg, contactImg],
     imageToShow: aboutImg,
@@ -3184,11 +2687,11 @@ const routesConfig = [
     pageToShow: servicePageRoute,
     imagesToHide: [backgroundImg, aboutImg, blogImg, locationsImg, contactImg],
     imageToShow: serviceImg,
-    route: "/service" // URL route for this page
+    route: "/services" // URL route for this page
   },
   {
     triggerElement: blogRoute2,
-    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage],
+    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, locationsPageRoute, contactPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: blogPageRoute,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, locationsImg, contactImg],
     imageToShow: blogImg,
@@ -3200,7 +2703,7 @@ const routesConfig = [
     pageToShow: locationsPageRoute,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, contactImg],
     imageToShow: locationsImg,
-    route: "/project" // URL route for this page
+    
   },
   {
     triggerElement: contactRoute2,
@@ -3212,7 +2715,7 @@ const routesConfig = [
   },
   {
     triggerElement: contactLink,
-    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, ConstructionPage, IndustrialPage],
+    pagesToHide: [homePageRoute, aboutPageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: contactPageRoute,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, locationsImg],
     imageToShow: contactImg,
@@ -3224,7 +2727,7 @@ const routesConfig = [
     pageToShow: servicePageRoute,
     imagesToHide: [backgroundImg, aboutImg, blogImg, locationsImg, contactImg],
     imageToShow: serviceImg,
-    route: "/service" // URL route for this page
+    route: "/services" // URL route for this page
 
   },
   {
@@ -3242,24 +2745,24 @@ const routesConfig = [
     pageToShow: servicePageRoute,
     imagesToHide: [backgroundImg, aboutImg, blogImg, locationsImg, contactImg ],
     imageToShow: serviceImg,
-    
+    route: "/services" // URL route for this page
   },
   {
     triggerElement: aboutLink2,
-    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, aboutPageRoute, privacypolicyPage, TermsConditionsPage, contactPageRoute, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, ConstructionPage, IndustrialPage],
+    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, aboutPageRoute, privacypolicyPage, TermsConditionsPage, contactPageRoute, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: aboutPageRoute,
     imagesToHide: [backgroundImg, serviceImg, blogImg, locationsImg ],
     imageToShow: aboutImg,
-    
+    route: "/about" // URL route for this page
 
   },
   {
     triggerElement: contactLink2,
-    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, aboutPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, IndustrialPage],
+    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, aboutPageRoute, privacypolicyPage, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: contactPageRoute,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, locationsImg,  ],
     imageToShow: contactImg,
-    
+    route: "/contact" // URL route for this page
   },
   {
     triggerElement: DocumentationLink,
@@ -3267,11 +2770,11 @@ const routesConfig = [
     pageToShow: DocumentationPage,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, locationsImg, contactImg ],
     imageToShow: DocumentationPage,
-    
+    route: "/documentation" // URL route for this page
   },
   {
     triggerElement: privacypolicyLink,
-    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, aboutPageRoute, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage, IndustrialPage],
+    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, aboutPageRoute, TermsConditionsPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: privacypolicyPage,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, locationsImg, contactImg ],
     imageToShow: privacypolicyPage,
@@ -3279,11 +2782,11 @@ const routesConfig = [
   },
   {
     triggerElement: TermsConditionsLink,
-    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, aboutPageRoute, privacypolicyPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, IndustrialPage],
+    pagesToHide: [homePageRoute, servicePageRoute, blogPageRoute, locationsPageRoute, contactPageRoute, aboutPageRoute, privacypolicyPage, DocumentationPage, energyPage, InfrastructurePage, WaterSanitationPage, SubstationsPage, ConstructionPage, IndustrialPage],
     pageToShow: TermsConditionsPage,
     imagesToHide: [backgroundImg, aboutImg, serviceImg, blogImg, locationsImg, contactImg ],
     imageToShow: TermsConditionsPage,
-    
+    route: "/terms-and-conditions", // Ensure this matches the actual URL path
 
   },
   {
