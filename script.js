@@ -1,6 +1,5 @@
 import emailjs from 'emailjs-com';
 
-
 export function toggleNavigation(menuIcon, navMenu, closeIcon) {
     menuIcon.addEventListener("click", () => {
         menuIcon.classList.toggle("hide-page");
@@ -36,27 +35,34 @@ function router(pagesToHide, pageToShow, imagesToHide, imageToShow, menuIcon, na
 }
 
 /**
+ * Handles route changes when user navigates or refreshes.
+ */
+function handleRouteChange(routesConfig, menuIcon, navMenu, closeIcon) {
+    const currentPath = window.location.pathname;
+    console.log("Current Path:", currentPath);
+
+    const matchedRoute = routesConfig.find(({ route }) => route === currentPath);
+    
+    if (matchedRoute) {
+        router(
+            matchedRoute.pagesToHide,
+            matchedRoute.pageToShow,
+            matchedRoute.imagesToHide,
+            matchedRoute.imageToShow,
+            menuIcon,
+            navMenu,
+            closeIcon,
+            matchedRoute.route
+        );
+    } else {
+        console.warn("Route not found:", currentPath);
+    }
+}
+
+/**
  * Set up routes with URL recognition.
  */
 export function setupRoutes(routesConfig, menuIcon, navMenu, closeIcon) {
-    function handleRouteChange() {
-        const currentPath = window.location.pathname;
-
-        const matchedRoute = routesConfig.find(({ route }) => route === currentPath);
-        if (matchedRoute) {
-            router(
-                matchedRoute.pagesToHide,
-                matchedRoute.pageToShow,
-                matchedRoute.imagesToHide,
-                matchedRoute.imageToShow,
-                menuIcon,
-                navMenu,
-                closeIcon,
-                matchedRoute.route
-            );
-        }
-    }
-
     // Attach event listeners to triggers
     routesConfig.forEach(({ triggerElement, pagesToHide, pageToShow, imagesToHide, imageToShow, route }) => {
         triggerElement.addEventListener("click", () => {
@@ -65,11 +71,12 @@ export function setupRoutes(routesConfig, menuIcon, navMenu, closeIcon) {
     });
 
     // Handle back/forward browser navigation
-    window.addEventListener("popstate", handleRouteChange);
+    window.addEventListener("popstate", () => handleRouteChange(routesConfig, menuIcon, navMenu, closeIcon));
 
-    // Check the URL on page load and navigate accordingly
-    window.addEventListener("DOMContentLoaded", handleRouteChange);
+    // Handle the initial route on page load
+    window.addEventListener("DOMContentLoaded", () => handleRouteChange(routesConfig, menuIcon, navMenu, closeIcon));
 }
+
 
     
     /**
