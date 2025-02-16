@@ -2,58 +2,75 @@ import emailjs from 'emailjs-com';
 
 
 export function toggleNavigation(menuIcon, navMenu, closeIcon) {
-        menuIcon.addEventListener("click", () => {
-            menuIcon.classList.toggle("hide-page");
-            navMenu.classList.toggle("hide-page");
-            closeIcon.classList.toggle("hide-page");
-        });
-    
-        closeIcon.addEventListener("click", () => {
-            menuIcon.classList.toggle("hide-page");
-            navMenu.classList.toggle("hide-page");
-            closeIcon.classList.toggle("hide-page");
-        });
+    menuIcon.addEventListener("click", () => {
+        menuIcon.classList.toggle("hide-page");
+        navMenu.classList.toggle("hide-page");
+        closeIcon.classList.toggle("hide-page");
+    });
+
+    closeIcon.addEventListener("click", () => {
+        menuIcon.classList.toggle("hide-page");
+        navMenu.classList.toggle("hide-page");
+        closeIcon.classList.toggle("hide-page");
+    });
+}
+
+/**
+ * Function to handle page visibility toggling and URL updates.
+ */
+function router(pagesToHide, pageToShow, imagesToHide, imageToShow, menuIcon, navMenu, closeIcon, route) {
+    pagesToHide.forEach(page => page.classList.add("hide-page"));
+    imagesToHide.forEach(image => image.classList.add("hide-page"));
+
+    window.scrollTo(0, 0);
+
+    pageToShow.classList.remove("hide-page");
+    imageToShow.classList.remove("hide-page");
+
+    menuIcon.classList.remove("hide-page");
+    navMenu.classList.add("hide-page");
+    closeIcon.classList.add("hide-page");
+
+    // Update the URL without reloading
+    history.pushState({ route }, "", route);
+}
+
+/**
+ * Set up routes with URL recognition.
+ */
+export function setupRoutes(routesConfig, menuIcon, navMenu, closeIcon) {
+    function handleRouteChange() {
+        const currentPath = window.location.pathname;
+
+        const matchedRoute = routesConfig.find(({ route }) => route === currentPath);
+        if (matchedRoute) {
+            router(
+                matchedRoute.pagesToHide,
+                matchedRoute.pageToShow,
+                matchedRoute.imagesToHide,
+                matchedRoute.imageToShow,
+                menuIcon,
+                navMenu,
+                closeIcon,
+                matchedRoute.route
+            );
+        }
     }
-    
-    /**
-     * Generic function to handle page visibility toggling and URL change.
-     * @param {HTMLElement[]} pagesToHide - An array of elements to hide.
-     * @param {HTMLElement} pageToShow - The element to show.
-     * @param {HTMLElement[]} imagesToHide - An array of image elements to hide.
-     * @param {HTMLElement} imageToShow - The image element to show.
-     * @param {string} route - The URL route to update.
-     */
-    function router(pagesToHide, pageToShow, imagesToHide, imageToShow, menuIcon, navMenu, closeIcon, route) {
-        pagesToHide.forEach(page => page.classList.add("hide-page"));
-        imagesToHide.forEach(image => image.classList.add("hide-page"));
-    
-        window.scrollTo(0, 0);
-    
-        pageToShow.classList.remove("hide-page");
-        imageToShow.classList.remove("hide-page");
-    
-        menuIcon.classList.remove("hide-page");
-        navMenu.classList.add("hide-page");
-        closeIcon.classList.add("hide-page");
-    
-        // Update the URL without reloading the page
-        history.pushState(null, "", route);
-    }
-    
-    /**
-     * Set up routes with URL routes and page toggling.
-     * @param {Object[]} routesConfig - Array of route configurations.
-     * @param {HTMLElement} menuIcon - The menu icon element.
-     * @param {HTMLElement} navMenu - The navigation menu element.
-     * @param {HTMLElement} closeIcon - The close icon element.
-     */
-    export function setupRoutes(routesConfig, menuIcon, navMenu, closeIcon) {
-        routesConfig.forEach(({ triggerElement, pagesToHide, pageToShow, imagesToHide, imageToShow, route }) => {
-            triggerElement.addEventListener("click", () => {
-                router(pagesToHide, pageToShow, imagesToHide, imageToShow, menuIcon, navMenu, closeIcon, route);
-            });
+
+    // Attach event listeners to triggers
+    routesConfig.forEach(({ triggerElement, pagesToHide, pageToShow, imagesToHide, imageToShow, route }) => {
+        triggerElement.addEventListener("click", () => {
+            router(pagesToHide, pageToShow, imagesToHide, imageToShow, menuIcon, navMenu, closeIcon, route);
         });
-    }
+    });
+
+    // Handle back/forward browser navigation
+    window.addEventListener("popstate", handleRouteChange);
+
+    // Check the URL on page load and navigate accordingly
+    window.addEventListener("DOMContentLoaded", handleRouteChange);
+}
+
     
     /**
      * Handle page load and URL check to show the appropriate page.
