@@ -4231,3 +4231,20 @@ video {
 .\[\&\>\*\:not\(\.sr-only\)\]\:relative>*:not(.sr-only) {
   position: relative;
 }
+.hide-page {
+  display: none;
+}
+.img-blur {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  box-shadow: inset -10px -10px 10px 20px white;
+}
+
+/* Dark mode variant using Tailwind's dark variant */
+@media (prefers-color-scheme: dark) {
+  .img-blur {
+    box-shadow: inset -10px -10px 10px 20px #18181b;
+  }
+}
