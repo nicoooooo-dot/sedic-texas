@@ -1648,7 +1648,7 @@ Studies and designs for the Tintal Avenue, from Bosa Avenue to Alsacia Avenue, A
                 <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
                 <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
             </svg>
-            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2"></p>
         </header>
         <!-- End heading -->
         <!-- row -->
@@ -1831,7 +1831,7 @@ Schneider Electric de Colombia S.A.
                 <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
                 <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
             </svg>
-            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2"></p>
         </header>
         <!-- End heading -->
         <!-- row -->
@@ -1995,7 +1995,7 @@ Our team ensured the design met all necessary requirements and standards, while 
                 <line x1="55.1" y1="30.4" x2="100" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
                 <line x1="45.1" y1="30.4" x2="0" y2="30.4" class="stroke-primary" style="stroke-width: 2;stroke-miterlimit: 10;"></line>
             </svg>
-            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">Save time managing advertising &amp; Content for your business.</p>
+            <p class="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2"></p>
         </header>
         <!-- End heading -->
         <!-- row -->
